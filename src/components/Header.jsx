@@ -7,7 +7,7 @@ const Header = () => {
     <Navbar bg="dark" variant="dark" style={{ height: 80 }}>
       <Container>
         <Navbar.Brand>
-          <Link href="/">Shopping Cart</Link>
+          <Link to="/">Shopping Cart</Link>
         </Navbar.Brand>
         <Navbar.Text className="search">
           <FormControl style={{ width: 500 }} placeholder="Search a product" className="m-auto" />
